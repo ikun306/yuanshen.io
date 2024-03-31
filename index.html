@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 网站名称 -->
+    <title>《原神》官网-踏入充满冒险的神奇世界</title>
+    <!-- 调用ICON地址 -->
+    <link rel="icon" href="https://ys.mihoyo.com/main/favicon.ico">
+    <!-- 引入阿里巴巴矢量图 -->
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <!-- Css样式调用 -->
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/aside.css">
+</head>
+
+<body>
+    <div class="big-box" id="app">
+        <section class="home">
+            <div class="video_body">
+                <div class="video">
+                    <video src="./images/原神.mp4" style="opacity: 1; width: 1536px; height: 864px;" loop="loop"
+                        muted="muted" autoplay>
+                    </video>
+                </div>
+            </div>
+        </section>
+        <div class="box">
+            <div class="aside">
+                <div class='aside-wrap'>
+                    <div class="aside-nav">
+                        <div class="btn">
+                            <div class="btn-item"></div>
+                            <div class="btn-item"></div>
+                            <div class="btn-item"></div>
+                        </div>
+                        <div class="icon">
+                            <div class="icon-img"><img src="images/头像.jpg" alt=""></div>
+                            <div class="icon-con">
+                                <p>网恋奔现被捅10086刀</p>
+                                <h2>(0)errors,(0)warnings</h2>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="title">
+                            <p>Menu 6</p>
+                        </div>
+                        <div class="menu">
+                            <div class="item">
+                                <div class="light"></div>
+                                <div class="licon">
+                                    <span class="iconfont icon-shouye-03"></span>
+                                </div>
+                                <a href="./index.html" class="con">首页</a>
+                                <div class="ricon">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="light"></div>
+                                <div class="licon">
+                                    <span class="iconfont icon-baobiaozhongxin-shuju-01"></span>
+                                </div>
+                                <a href="./news.html" class="con">新闻</a>
+                                <div class="ricon">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="light"></div>
+                                <div class="licon">
+                                    <span class="iconfont icon-gerenzhongxin-wode-04"></span>
+                                </div>
+                                <a href="./role.html" class="con">角色</a>
+                                <div class="ricon"></div>
+                            </div>
+                            <div class="item">
+                                <div class="light"></div>
+                                <div class="licon">
+                                    <span class="iconfont icon-xinwen-zixun-06"></span>
+                                </div>
+                                <a href="./world.html" class="con">世界</a>
+                                <div class="ricon"></div>
+                            </div>
+                            <div class="item">
+                                <div class="light"></div>
+                                <div class="licon">
+                                    <span class="iconfont icon-image-rectangle"></span>
+                                </div>
+                                <a href="./comic.html" class="con">漫画</a>
+                                <div class="ricon"></div>
+                            </div>
+                            <div class="item">
+                                <div class="light"></div>
+                                <div class="licon">
+                                    <span class="iconfont icon-shoucang03"></span>
+                                </div>
+                                <a href="https://www.miyoushe.com/ys/" class="con">社区</a>
+                                <div class="ricon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="title">
+                            <p>Serve 4</p>
+                        </div>
+                        <div class="menu">
+                            <div class="item">
+                                <div class="light"></div>
+                                <div class="licon">
+                                    <span class="iconfont icon-apps"></span>
+                                </div>
+                                <div class="con">Software</div>
+                                <div class="ricon">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="light"></div>
+                                <div class="licon">
+                                    <span class="iconfont icon-setting"></span>
+                                </div>
+                                <div class="con">Chat</div>
+                                <div class="ricon">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="light"></div>
+                                <div class="licon">
+                                    <span class="iconfont icon-a-search01"></span>
+                                </div>
+                                <div class="con">Intercom</div>
+                                <div class="ricon">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="light"></div>
+                                <div class="licon">
+                                    <span class="iconfont icon-more-horizontal"></span>
+                                </div>
+                                <div class="con">Setting</div>
+                                <div class="ricon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text">
+                <div class='wrap'>
+                    <div class="nav">
+                        <div class="pz-home">
+                            <div class="pz-header">
+                                <img src="./images/index/原神.jpg">
+                                <div class="pz-header-slot" onclick="toggle()">
+                                    <a href="#">
+                                        <img src="./images/index/适龄提示.jpg" id="blur">
+                                    </a>
+                                </div>
+                                <div class="detail_content" id="popup">
+                                    <a href="#" class="detail_close" onclick="toggle()"></a>
+                                    <div class="slot_article">
+                                        <img src="./images/index/提示信息.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pz-image">
+                                <img src="./images/index/盛典与慧业.jpg">
+                            </div>
+                            <div class="video_button">
+                                <input type="checkbox" style="display: none;" id="conductVideo">
+                                <label for="conductVideo" class="conductButton">
+                                    <img src="./images/index/播放.jpg" data-vshow="true">
+                                </label>
+                                <div class="videos">
+                                    <label for="conductVideo" class="offbutton"></label>
+                                    <video src="./images/index/宣传视频.mp4" muted="muted" controls="controls" autoplay
+                                        style="width: 100%;"></video>
+                                </div>
+                            </div>
+                            <div class="pz-wrapper">
+                                <img src="./images/index/3.6版本.jpg">
+                            </div>
+                            <footer class="footer">
+                                <ul class="footer_socialbar">
+                                    <li class="footer_socialitem footer_socialitem--PC"></li>
+                                    <li class="footer_socialitem footer_socialitem--Game"></li>
+                                    <li class="footer_socialitem footer_socialitem--Yun"></li>
+                                </ul>
+                            </footer>
+                            <div class="poster_arrows">
+                                <div class="poster_arrow poster_arrow-1"></div>
+                                <div class="poster_arrow poster_arrow-2"></div>
+                                <div class="poster_arrow poster_arrow-3"></div>
+                            </div>
+                        </div>
+                        <section class="news">
+                            <h3>新闻资讯</h3>
+                            <div class="news_main">
+                                <!-- Swiper -->
+                                <div class="swiper">
+                                    <input type="radio" name="select" id="slide_1" checked hidden>
+                                    <input type="radio" name="select" id="slide_2" hidden>
+                                    <input type="radio" name="select" id="slide_3" hidden>
+                                    <input type="radio" name="select" id="slide_4" hidden>
+
+                                    <div class="slider">
+                                        <label for="slide_1" class="slide slide-1">
+                                        </label>
+                                        <label for="slide_2" class="slide slide-2">
+                                        </label>
+                                        <label for="slide_3" class="slide slide-3">
+                                        </label>
+                                        <label for="slide_4" class="slide slide-4">
+                                        </label>
+                                    </div>
+                                    <div class="swiper-slide swiper-1">
+                                        <img src="./images/index/1.jpg">
+                                    </div>
+                                    <div class="swiper-slide swiper-2">
+                                        <img src="./images/index/2.jpg">
+                                    </div>
+                                    <div class="swiper-slide swiper-3">
+                                        <img src="./images/index/3.jpg">
+                                    </div>
+                                    <div class="swiper-slide swiper-4">
+                                        <img src="./images/index/4.jpg">
+                                    </div>
+                                </div>
+
+
+                                <div class="news_content">
+                                    <ul class="news_tab_list">
+                                        <li class="news_tab_item news_tab_item--active">最新</li>
+                                        <li class="news_tab_item">新闻</li>
+                                        <li class="news_tab_item">公告</li>
+                                        <li class="news_tab_item">活动</li>
+                                    </ul>
+                                    <ul class="news_list"><!---->
+                                        <li><a href="https://ys.mihoyo.com/main/news/detail/27686" class="news_item"
+                                                title="3.7版本「决斗！召唤之巅！」全新武器说明">
+                                                <p class="news_title ellipsis">3.7版本「决斗！召唤之巅！」全新武器说明</p>
+                                                <p class="news_date">2023/05/21</p>
+                                            </a></li>
+                                        <li><a href="https://ys.mihoyo.com/main/news/detail/27685" class="news_item"
+                                                title=" 云堇生日快乐｜真巧，可谓是：落日红枫遇知音。">
+                                                <p class="news_title ellipsis"> 云堇生日快乐｜真巧，可谓是：落日红枫遇知音。</p>
+                                                <p class="news_date">2023/05/21</p>
+                                            </a></li>
+                                        <li><a href="https://ys.mihoyo.com/main/news/detail/27684" class="news_item"
+                                                title="「备战！召唤王！」3.7版本七圣召唤新内容展示页上线！">
+                                                <p class="news_title ellipsis">「备战！召唤王！」3.7版本七圣召唤新内容展示页上线！</p>
+                                                <p class="news_date">2023/05/19</p>
+                                            </a></li>
+                                        <li><a href="https://ys.mihoyo.com/main/news/detail/27683" class="news_item"
+                                                title="「感谢选择『狛荷屋』！」——「檐宇猫游」·绮良良">
+                                                <p class="news_title ellipsis">「感谢选择『狛荷屋』！」——「檐宇猫游」·绮良良</p>
+                                                <p class="news_date">2023/05/19</p>
+                                            </a></li>
+                                        <li><a href="https://ys.mihoyo.com/main/news/detail/27682" class="news_item"
+                                                title="《原神》角色演示-「绮良良：歧尾万巷行」">
+                                                <p class="news_title ellipsis">《原神》角色演示-「绮良良：歧尾万巷行」</p>
+                                                <p class="news_date">2023/05/19</p>
+                                            </a></li>
+                                    </ul>
+                                    <a href="./news.html" class="news_more">查看全部资讯</a>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="city">
+                            <ul class="city_list">
+                                <li class="city_list-item">
+                                    <div class="city_list-bg" style="background-image: url(./images/index/蒙德.jpg);">
+                                    </div>
+                                    <p>蒙德城</p>
+                                    <div class="city_list-char" style="background-image: url(./images/index/琴.jpg);">
+                                    </div>
+                                </li>
+                                <li class="city_list-item">
+                                    <div class="city_list-bg" style="background-image: url(./images/index/璃月.jpg);">
+                                    </div>
+                                    <p>璃月港</p>
+                                    <div class="city_list-char" style="background-image: url(./images/index/魈.jpg);">
+                                    </div>
+                                </li>
+                                <li class="city_list-item">
+                                    <div class="city_list-bg" style="background-image: url(./images/index/稻妻.jpg);">
+                                    </div>
+                                    <p>稻妻城</p>
+                                    <div class="city_list-char" style="background-image: url(./images/index/神里绫华.jpg);">
+                                    </div>
+                                </li>
+                                <li class="city_list-item">
+                                    <div class="city_list-bg" style="background-image: url(./images/index/须弥.jpg);">
+                                    </div>
+                                    <p>须弥城</p>
+                                    <div class="city_list-char" style="background-image: url(./images/index/提纳里.jpg);">
+                                    </div>
+                                </li>
+                                <li class="city_list-item">
+                                    <div class="city_list-bg" style="background-image: url(./images/index/敬请期待.jpg);">
+                                    </div>
+                                    <p>敬请期待</p>
+                                </li>
+                            </ul>
+                        </section>
+                        <div class="foot">
+                            <ul class="foot_socialbar">
+                                <li class="foot_socialitem foot_socialitem--weibo"></li>
+                                <li class="foot_socialitem foot_socialitem--wechat"></li>
+                                <li class="foot_socialitem foot_socialitem--qq"></li>
+                                <li class="foot_socialitem">
+                                    <p class="foot_socialitem--share"></p>
+                                    <div class="share_wrap">
+                                        <p>分享至</p>
+                                        <ul>
+                                            <li class="share_item share_qzone"></li>
+                                            <li class="share_item share_qq"></li>
+                                            <li class="share_item share_weibo"></li>
+                                            <li class="share_item share_bbs"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div id="foot-top">
+                                <img src="./images/trvels/footer.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggle() {
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active')
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>
